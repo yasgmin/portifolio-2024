@@ -13,17 +13,6 @@ const About = () => {
                 me a valuable asset to any team. Let's connect and explore opportunities for<br></br>  
                 collaboration and growth together!</p>
             </section>
-            <section className='experiencias'>
-                <h1>Work Experience</h1>
-                <p className='titulo'>Web Analytics Associate Analytics 
-                at Media.Monks Brazil 
-                    <p className='responsabilidades'>Responsible for implementing TAGS on clients' websites in Google Tag Manager (GTM),<br/>
-                    processing data through Big Query, and creating dashboards for better visualization of<br/>
-                    metrics and dimensions.</p>
-                </p>
-            <p className='data'>I work here! - Since 08/23</p>
-
-            </section>
         </div>
     )
 }
