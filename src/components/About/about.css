@@ -1,0 +1,71 @@
+.principal {
+    text-align: left;
+    margin: 15rem 0 0 20rem;
+}
+
+h1 {
+    color: var(--Branco-Dracula, #F8F8F2);
+    font-family: Cascadia Code;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px; /* 123.81% */
+    letter-spacing: -0.4px;
+    font-size: 42px;
+}
+
+.sobre {
+    text-align: center;
+    color: var(--Roxo-dracula, #BD93F9);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    max-width: 800px;
+    margin: 4rem 2rem 0 20rem; 
+    padding: 2rem;
+    background-color: #282A36;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.sobre:hover {
+    cursor: pointer;
+    transform: scale(1.05); 
+    border: 2px solid #FF79C6; 
+}
+
+
+h1:hover {
+    color:#50FA7B;
+}
+
+.titulo {
+    color: var(--Rosa-Dracula, #FF79C6);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: 1px;
+}
+
+.responsabilidades {
+    color: var(--Roxo-dracula, #BD93F9);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 233.333% */
+    letter-spacing: 1px;
+}
+
+
+.experiencias {
+    margin-top: 8rem;
+}
+
+.data {
+    display: flex;
+    align-items: flex-end;
+}

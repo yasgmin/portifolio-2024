@@ -1,0 +1,49 @@
+body {
+    height: auto;
+  max-width: 100%;
+  background-color: #282a36;
+  margin: 0;
+}
+
+@media only screen and (max-device-width: 900px) {
+    /* .menu { width:100%; } */
+    }
+
+.geral {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8rem 18rem 0 0rem;
+}
+
+.texto {
+  display: inline-block;
+  margin-left: 20rem;
+  font-family: Cascadia Code;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: left;
+  line-height: 70px; /* 120.69% */
+  letter-spacing: -1px;
+  color: #f8f8f2;
+}
+
+@keyframes tchau {
+  0%,
+  100% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(-20deg);
+  }
+}
+
+.tchau {
+  display: inline-block;
+  animation: tchau 4s infinite;
+}
+
+span {
+  color: #ff79c6;
+}
