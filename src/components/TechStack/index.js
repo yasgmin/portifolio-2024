@@ -12,15 +12,29 @@ const TechStack = () => {
     <div className="stack">
       <h1 className="titu">My Tech Stack</h1>
       <h2> Technologies I’ve been working with recently</h2>
-      <div className="stackimgs">
+      <div className="stackings">
         <ul>
-          <li><img src={jsicon} alt="javascript icon" /></li>
-          <li><img src={cssicon} alt="css icon" /></li>
-          <li><img src={htmlicon} alt="html icon" /></li>
-          <li><img src={reacticon} alt="react icon" /></li>
-          <li><img src={nodeicon} alt="node icon" /></li>
-          <li><img src={tsicon} alt="typescript icon" /></li>
-          <li><img src={pythonicon} alt="python icon" /></li>
+          <li>
+            <img src={jsicon} alt="javascript icon" />
+          </li>
+          <li>
+            <img src={cssicon} alt="css icon" />
+          </li>
+          <li>
+            <img src={htmlicon} alt="html icon" />
+          </li>
+          <li>
+            <img src={reacticon} alt="react icon" />
+          </li>
+          <li>
+            <img src={nodeicon} alt="node icon" />
+          </li>
+          <li>
+            <img src={tsicon} alt="typescript icon" />
+          </li>
+          <li>
+            <img src={pythonicon} alt="python icon" />
+          </li>
         </ul>
       </div>
     </div>

@@ -1,35 +1,31 @@
-body {
-    height: auto;
-  max-width: 100%;
-  background-color: #282a36;
-  margin: 0;
-}
-
-@media only screen and (max-device-width: 900px) {
-    /* .menu { width:100%; } */
-    }
-
 .geral {
+  margin-top: 4rem;
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
-  margin: 8rem 18rem 0 0rem;
+}
+/* Pra evitar que tudo altere quando você puxa, puxa junto o elemento que tá dentro da class, assim só ele vai alterar */
+.geral img {
+  margin-right: 18rem;
 }
 
+/* Igualando a margem da direita e esquerda para 18rem */
 .texto {
-  display: inline-block;
-  margin-left: 20rem;
+  /* display: inline-block; */
+  margin-left: 18rem;
   font-family: Cascadia Code;
   font-size: 58px;
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: 700;
   text-align: left;
-  line-height: 70px; /* 120.69% */
+  line-height: 70px;
   letter-spacing: -1px;
   color: #f8f8f2;
 }
 
-@keyframes tchau {
+/* Nomes das classes precisam ser mais descritivas */
+@keyframes byeEmoji {
   0%,
   100% {
     transform: rotate(20deg);
@@ -39,9 +35,9 @@ body {
   }
 }
 
-.tchau {
+.byeEmoji {
   display: inline-block;
-  animation: tchau 4s infinite;
+  animation: byeEmoji 4s infinite;
 }
 
 span {

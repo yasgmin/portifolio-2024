@@ -3,7 +3,7 @@ import './about.css'
 const About = () => {
     return (
         <div className='principal'>
-            <section className='sobre'>
+            <div className='sobre'>
                 <h1>About Me</h1>
                 <p>Hello! I'm Yasmin Gonçalves, and I'm passionate about growing alongside<br></br> 
                 a company that values innovation and continuous learning. With experience<br></br> 
@@ -12,7 +12,7 @@ const About = () => {
                 and expanding my skill set. My dedication to learning and adaptability make<br></br>  
                 me a valuable asset to any team. Let's connect and explore opportunities for<br></br>  
                 collaboration and growth together!</p>
-            </section>
+            </div>
         </div>
     )
 }

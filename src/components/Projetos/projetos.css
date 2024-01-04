@@ -1,0 +1,91 @@
+main {
+  display: flex;
+  height: fit-content;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto 18rem 15rem 18rem;
+}
+
+/* Section */
+.styles {
+  width: 100%;
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projectCard {
+  width: 373px;
+  height: 567px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #44475a;
+  box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+/* Era container */
+.projectCard img {
+  width: 375px;
+  height: 280px;
+  flex-shrink: 0;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.projectCard:hover {
+  border-radius: 20px;
+  background: #6272a4;
+  box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+h5 {
+  margin-top: 1rem;
+  color: var(--Solid-Heading-Dark-mode, #ccc);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 28px;
+  /* font-style: normal; */
+  font-weight: 500;
+  line-height: 26px;
+}
+
+h5:hover {
+  color: #50fa7b;
+}
+
+p {
+  color: var(--Solid-Heading-Dark-mode, #ccc);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  margin: 0 1rem 3rem 1rem;
+}
+.projectLinks {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: fit-content;
+}
+
+.gitButton {
+  width: 100px;
+  display: flex;
+  font-family: "Poppins";
+  background-color: #ff79c6;
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 0 0 2rem 4rem;
+  padding: 10px 0;
+  color: #282a36;
+  justify-content: center;
+}
+
+.gitButton:hover {
+  border: 2px solid #50fa7b;
+}

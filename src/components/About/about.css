@@ -1,52 +1,55 @@
 .principal {
-    text-align: left;
-    margin: 20rem 0 0 20rem;
+  font-family: "Poppins";
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 18rem;
 }
 
 h1 {
-    color: var(--Branco-Dracula, #F8F8F2);
-    font-family: Cascadia Code;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 52px; 
-    letter-spacing: -0.4px;
-    font-size: 42px;
+  color: var(--Branco-Dracula, #f8f8f2);
+  font-family: Cascadia Code;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -0.4px;
+  font-size: 42px;
 }
 
 .sobre {
-    text-align: center;
-    color: var(--Roxo-dracula, #BD93F9);
-    font-family: Poppins;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px; 
-    max-width: 800px;
-    margin: 8rem 2rem 0 20rem; 
-    padding: 2rem;
-    background-color: #282A36;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-    border: 2px solid #FF79C6; 
+  width: fit-content;
+  border: 2px solid #ff79c6;
+  text-align: center;
+  color: var(--Roxo-dracula, #bd93f9);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+
+  padding: 2rem;
+  background-color: #282a36;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
 }
 
 .sobre:hover {
-    cursor: pointer;
-    transform: scale(1.05); 
-    border: 2px solid #FF79C6; 
+  cursor: pointer;
+  transform: scale(1.05);
+  border: 2px solid #ff79c6;
 }
-
 
 h1:hover {
-    color:#50FA7B;
+  color: #50fa7b;
 }
 
+/* Não tem nada com a ClassName titulo no index.js do About */
 .titulo {
-    color: var(--Rosa-Dracula, #FF79C6);
-    font-family: Poppins;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px; /* 140% */
-    letter-spacing: 1px;
+  color: var(--Rosa-Dracula, #ff79c6);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1px;
 }

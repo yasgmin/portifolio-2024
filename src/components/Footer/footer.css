@@ -1,0 +1,41 @@
+/* footer.css */
+
+.principalFooter {
+  display: flex;
+  flex-direction: column; /* Mude para um layout de coluna */
+  align-items: center;
+  padding: 2rem; /* Adicione um preenchimento conforme necessário */
+  position: relative;
+}
+
+.logoYa {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem; /* Adicione margem inferior para separar a logo/email da linha */
+}
+
+.logoYa img {
+  margin: 0 0 2rem 0;
+  margin-right: 1rem;
+}
+
+footer {
+  font-family: "Poppins", sans-serif;
+  color: #6272a4;
+  position: relative;
+}
+
+footer span {
+  color: #ff79c6;
+}
+
+/* Adicione uma linha absoluta entre a seção da logo/email e a seção do "Made with Love & Coffee" */
+.principalFooter::before {
+  content: "";
+  position: absolute;
+  top: 50%; /* Posicione no meio da altura da principalFooter */
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+}
