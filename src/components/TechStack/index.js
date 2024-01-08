@@ -9,7 +9,7 @@ import nodeicon from "../../assets/nodeicon.svg";
 
 const TechStack = () => {
   return (
-    <div className="stack">
+    <div className="stack" id="tech">
       <h1 className="titu">My Tech Stack</h1>
       <h2> Technologies I’ve been working with recently</h2>
       <div className="stackings">

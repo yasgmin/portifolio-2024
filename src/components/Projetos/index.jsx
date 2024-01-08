@@ -2,7 +2,7 @@ import "./projetos.css";
 import projetodefault from "../../assets/projeto1.png";
 
 const Projetos = () => (
-  <main>
+  <main id="projects">
     {" "}
     {/* Ao inves de cada card ser uma section, cada card é uma div dentro de uma section */}
     <section className="styles">

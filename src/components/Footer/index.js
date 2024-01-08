@@ -3,7 +3,7 @@ import logo from "../../assets/LOGOY.svg";
 
 const Footer = () => {
   return (
-    <div className="principalFooter">
+    <div className="principalFooter" id="contact">
       <div className="logoYa">
         <img src={logo} alt="logo yasmin" />
         <p>yasgminvlr@gmail.com</p>
