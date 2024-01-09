@@ -18,7 +18,7 @@ h2 {
   font-family: Poppins;
   font-weight: 400;
 }
-/* Aqui tinha somente um margin-top, o certo seria passar os laterais também pra ficar o mesmo espaço, novamente 18rem left e right */
+
 .stackings {
   margin: 7rem 18rem auto 18rem;
 }
@@ -30,12 +30,9 @@ h2 {
   list-style-type: none;
 }
 
-/* Pode ser passado direto na UL acima */
-/* .stackings li {
-  list-style-type: none;
-} */
 
-/* Adicionei um transition 0.5s pra ficar mais suave o hover, e novamente sem o hover para também animar ao tirar o mouse */
+
+
 .stackings li img:hover {
   cursor: pointer;
   transform: scale(1.2);
