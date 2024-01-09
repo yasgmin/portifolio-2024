@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: space-between;
 }
-/* Pra evitar que tudo altere quando você puxa, puxa junto o elemento que tá dentro da class, assim só ele vai alterar */
+
 .geral img {
   margin-right: 18rem;
 }
