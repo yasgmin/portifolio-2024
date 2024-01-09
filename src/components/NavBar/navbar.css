@@ -5,7 +5,7 @@ nav {
   background-color: #282a36;
   display: flex;
   gap: 0.7rem;
-  align-items: center; /* Alinhe os itens verticalmente no centro */
+  align-items: center; 
 }
 
 .navegacao {
@@ -19,7 +19,7 @@ nav {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: flex; /* Use flex container para alinhar itens lado a lado */
+  display: flex; 
 }
 
 .navegacao li {
@@ -32,7 +32,7 @@ nav {
 .navegacao img {
   gap: 30px;
   width: 100%;
-  margin-right: 0; /* Adicione margem à direita do logotipo */
+  margin-right: 0; 
 }
 
 .navegacao li:hover {
@@ -46,7 +46,7 @@ nav {
   gap: 0.7rem;
   display: flex;
   justify-content: flex-end;
-  transition: transform 0.3s ease; /* Ajuste a duração conforme necessário */
+  transition: transform 0.3s ease;
 }
 
 .sociais:hover {
