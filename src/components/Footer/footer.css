@@ -2,16 +2,16 @@
 
 .principalFooter {
   display: flex;
-  flex-direction: column; /* Mude para um layout de coluna */
+  flex-direction: column; 
   align-items: center;
-  padding: 2rem; /* Adicione um preenchimento conforme necessário */
+  padding: 2rem; 
   position: relative;
 }
 
 .logoYa {
   display: flex;
   align-items: center;
-  margin-bottom: 1rem; /* Adicione margem inferior para separar a logo/email da linha */
+  margin-bottom: 1rem; 
 }
 
 .logoYa img {
@@ -29,11 +29,11 @@ footer span {
   color: #ff79c6;
 }
 
-/* Adicione uma linha absoluta entre a seção da logo/email e a seção do "Made with Love & Coffee" */
+
 .principalFooter::before {
   content: "";
   position: absolute;
-  top: 50%; /* Posicione no meio da altura da principalFooter */
+  top: 50%; 
   left: 0;
   width: 100%;
   height: 1px;
