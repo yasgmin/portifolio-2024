@@ -43,7 +43,7 @@ h1:hover {
   color: #50fa7b;
 }
 
-/* Não tem nada com a ClassName titulo no index.js do About */
+
 .titulo {
   color: var(--Rosa-Dracula, #ff79c6);
   font-family: Poppins;
