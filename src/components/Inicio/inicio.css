@@ -10,13 +10,11 @@
   margin-right: 18rem;
 }
 
-/* Igualando a margem da direita e esquerda para 18rem */
+
 .texto {
-  /* display: inline-block; */
   margin-left: 18rem;
   font-family: Cascadia Code;
   font-size: 58px;
-  /* font-style: normal; */
   font-weight: 700;
   text-align: left;
   line-height: 70px;
@@ -24,7 +22,7 @@
   color: #f8f8f2;
 }
 
-/* Nomes das classes precisam ser mais descritivas */
+
 @keyframes byeEmoji {
   0%,
   100% {
